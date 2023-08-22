@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const taskList = document.querySelector(".task-list");
 
     addTaskBtn.addEventListener("click", addTask);
-
+    
     function addTask() {
         const title = taskTitle.value;
         const description = taskDescription.value;
